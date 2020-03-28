@@ -1,22 +1,32 @@
 <!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title>Ville's miniportfolio</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        
+        <!-- Icons + webmanifest | START -->
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        <!-- Favicon stuff etc | END -->
 
-        <!-- Bootstrap necessities | Start -->
+        <!-- Bootstrap necessities | START -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        <!-- Bootstrap necessities | End -->
+        <!-- Bootstrap necessities | END -->
 
+        <link href="https://fonts.googleapis.com/css?family=Kodchasan&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="css/main.css">
 
     </head>
@@ -25,9 +35,249 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <b>upgrade your browser</b> to improve your experience.</p>
         <![endif]-->
 
+        <!-- Header | START -->
         <div class="header">
-            <h1 class="text-center align-middle">Welcome to Ville's portfolio-ish page!</h1>
+            <a href="https://mycoville.github.io/">
+                <h1 class="text-center align-middle"><span class="header-text">Ville's miniportfolio!</span></h1>
+            </a>
         </div>
-        
+        <!-- Header | END -->
+
+        <!-- Simple menu | START -->
+        <div id="menu" class="container-fluid">
+            <div class="row text-center">
+                <a href="#programming" class="col-md-4 bg-cyberblue text-center p-1 menu-item">
+                        <div class="col-3 col-md-12 menu-item">
+                            <img class="m-2 img-mainmenu" src="images/icon-programming.png">
+                        </div>
+                        <div class="col-9 col-md-12 menu-item">
+                            <h1 class="title-mainmenu">Programming</h1>
+                        </div>
+                        
+                </a>
+                <a href="#graphics" class="col-md-4 bg-cyberpurple text-center p-1 menu-item">
+                        <div class="col-3 col-md-12 menu-item">
+                            <img class="m-2 img-mainmenu" src="images/icon-graphics.png">
+                        </div>
+                        <div class="col-9 col-md-12 menu-item">
+                            <h1 class="title-mainmenu">Graphics</h1>
+                        </div>
+                </a>
+                <a href="#audio" class="col-md-4 bg-cybergreen text-center p-1 menu-item">
+                        <div class="col-3 col-md-12 menu-item">
+                            <img class="m-2 img-mainmenu" src="images/icon-audio2.png">
+                        </div>
+                        <div class="col-9 col-md-12 menu-item">
+                            <h1 class="title-mainmenu">Audio</h1>
+                        </div>
+                </a>
+            </div>
+        </div>
+        <!-- Simple menu | END -->
+<!------------------------------------------------>
+<!------------------------------------------------>
+        <!-- Info about person | START -->
+        <div id="info" class="container-fluid bg-cyberblue-darker text-white">
+            <div class="row">
+                <div class="col-md-3 col-lg-4 p-2 pt-3 pb-3"><img class="img-profileimage rounded-circle" src="images/portfolio-ville.jpg"></div>
+                
+                <div class="col-md-9 col-lg-8 p-4">
+
+                    <h2 class="text-center title-sectioned"><span>Ville Kentala</span></h2>
+                    <p class="text-center"><i>Programmer / Graphics guy / Musician</i></p>
+                    
+                    <h2 class="text-center title-sectioned"><span>Familiar with:</span></h2>
+                    <ul>
+                        <li><b>App and Game Development:</b> Unity/C#, Java</li>
+                        <li><b>Web Development:</b> Vanilla JS, jQuery, WordPress/PHP, Django/Python</li>
+                        <li><b>2D Graphics:</b> Adobe Photoshop/GIMP, Inkscape</li>
+                        <li><b>3D Graphics:</b> MagicaVoxel</li>
+                        <li><b>Audio:</b> LMMS (primary DAW), Guitar Pro (for composition), Audacity (sound effects etc)</li>
+                        <li><b>Project Management:</b> SCRUM, Trello, MeisterTask</li>
+                    </ul>
+                    
+                    <h3 class="text-center title-sectioned"><span>Minor experience / Currently learning:</span></h3>
+                    <ul>
+                        <li><b>Game Development:</b> Godot 3.2/GDScript</li>
+                        <li><b>Web Development:</b> React</li>
+                        <li><b>3D Graphics:</b> Blender 2.8</li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Info about person | END -->
+<!------------------------------------------------>
+<!------------------------------------------------>   
+        <!-- Programming | START -->
+        <div id="programming" class="container-fluid bg-cyberblue p-3">
+            <h1 class="text-white"><span class="title-experience">Programming</span></h1>
+            <br>
+            
+            <!-- Safire ADD SITES HERE AS WELL: MADE TECHNICAL STUFF -->
+            <div class="row">
+                <div class="col-md-9 text-white">
+                    <h2>Safire SMS Remote Controller</h2>
+                    <p>The application lets Safire heater owners control the heaters at their homes, cabins, boats, etc. easily and remotely. Based on the intuitive and easy-to-use interface, the application generates SMS messages for the user to send to their heater's SMS unit. The application can no longer directly send SMS messages directly from the app due to the changes in Google Play's terms of service. However, the application opens up the ready-made SMS message within the user's SMS software which then only requires the tap of the Send button. Currently the software allows for 3 distinct heaters to be saved on it, and it is multilingual (currently Finnish and English).</p>
+                    <div class="text-center">
+                        <a href="https://play.google.com/store/apps/details?id=fi.LuotoneOy.SafireRemoteControl&hl=en">
+                            <img class="img-link" src="images/app-google-play.png" alt="https://play.google.com/store/apps/details?id=fi.LuotoneOy.SafireRemoteControl&hl=en">
+                        </a>
+                        <a href="https://apps.apple.com/fi/app/safire-sms-remote-controller/id1462272263">
+                            <img class="img-link" src="images/app-app-store.png" alt="https://apps.apple.com/fi/app/safire-sms-remote-controller/id1462272263">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 p-4">
+                    <img class="rounded img-programming" src="images/safire-sms-remote-controller.jpg">
+                </div>
+            </div>
+            <br>
+            <!-- Hobbies -->
+            <div class="row">
+                <div class="col-md-12 text-white">
+                    <hr>
+                    <h2 class="text-center">Hobby projects</h2>
+                    <hr>
+                    <h3>Custom FPS Controller with Parkour Mechanics</h3>
+                    <p>In my free time I am developing a custom FPS controller I've made for Unity. The idea behind the controller is having the character still be a physics-based object (reacting to explosions and such) while still having tight and responsive controls. Additionally, I've decided to expand upon its code with dynamic parkour mechanics: This way I would not have to - for example - specify which ledges the player could grab and climb.</p>
+                    <p><b>Current features:</b></p>
+                    <ul>
+                        <li>Snappy physics-based basic FPS controls with jumping, crouching</li>
+                        <li>Dynamic ledge climbing system: No areas need to be manually marked as climbable, as the angle and space above a ledge determines whether it can be climbed or not.</li>
+                        <li>Context-sensitive controls: For example hanging on a ledge has its own controls that are separate from the basic ones</li>
+                    </ul>
+                    <p><b>Planned upcoming features:</b></p>
+                    <ul>
+                        <li>Sideways movement along ledges</li>
+                        <li>Sliding</li>
+                        <li>Dynamic animations based on climbed terrain</li>
+                        <li>Guns</li>
+                    </ul>
+                    <hr>
+                    <h3>Tabletop RPG Manager (offline)</h3>
+                    <p>Having used several solutions (Roll20, Fantasy Grounds, PowerPoint, image manipulation programs...) to manage my tabletop RPG games as the Game Master, I've found that none of the available tools seem to provide all of the most the necessary functionalities I need in my games. They lack, for example, a <b>very quick</b> dynamic system for generating props combined with the ability to both snap on and off a grid system. Some systems might also require you to always be connected to the internet even if you would not need other players to join any online session. Therefore, I've started creating my own system for a grid-based tabletop RPG manager which aims to have all of these functionalities.<br><br>
+                    <b>Current features:</b></p>
+                    <ul>
+                        <li>Dynamic grid system (snaps on/off grid at will) with smooth drag 'n' drop</li>
+                        <li>Quick spawning system for PCs/NPCs and AoE effects</li>
+                        <li>Distance calculation in both unit systems</li>
+                        <li>Simple save system for 1 view</li>
+                        <li>Simple dynamic drawing on the map/grid</li>
+                        <li>Does not require an internet connection</li>
+                    </ul>
+                    <p><b>Planned upcoming features:</b></p>
+                    <ul>
+                        <li>Partly duplicated screen: The Game Master will have their own screen and can dynamically hide and show objects in the players' view.</li>
+                        <li>Easy-to-use save slot system for different views/scenes</li>
+                        <li>Quick spawning system for all moveable objects</li>
+                        <li>Tagging objects as immoveable</li>
+                        <li>Minor network features: Players could mark objects, points or paths on their devices and have those markings visible for the Game Master (optional)</li>
+                        <li>Dynamically uploading new prop images to the program</li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Programming | END -->
+<!------------------------------------------------>
+<!------------------------------------------------>
+        <!-- Graphics | START -->
+        <div id="graphics" class="container-fluid bg-cyberpurple p-3">
+            <h1 class="text-white"><span class="title-experience">Graphics</span></h1>
+            <br>
+            <p class="text-white">The graphical work I've done has mostly been for my own projects and hobbies but some of my 2D graphics have ended up on client's websites or applications. I am quite adept at creating very quick placeholder graphics and layout prototypes that help clients and other teammates get a better feel for the visuals than just black and white boxes could. When I am not doing placeholder graphics, I usually use Inkscape when working on parts that usually require vector graphics (icons, buttons, logos etc.) and GIMP when it comes to editing photos.<br><br>
+            Additionally, I often use MagicaVoxel to create voxel-based 3D models for fun, my programming projects and also for my RPG hobbies. I've also used Blender to create 3D models of non-organic objects, though to a lesser degree. While stylistically my visual taste can be argued, I do possess the skills to create graphics for many kinds of projects.
+            </p>
+            <!-- Gallery -->
+        <div class="container bg-cyberpurple p-3">
+            <div class="row text-center portfolio-gallery">
+                    <div class="col-xs-6 col-sm-6 col-md-4">
+                        <a href="images/cyberpunk-city-square.jpg" target="_blank">
+                        <img class="img-fluid img-thumbnail" src="images/cyberpunk-city-square.jpg">
+                        </a>
+                    </div>
+                        
+                    <div class="col-xs-6 col-sm-6 col-md-4">
+                        <a href="images/cyberpunk-smg-square.jpg" target="_blank">
+                        <img class="img-fluid img-thumbnail" src="images/cyberpunk-smg-square.jpg">
+                        </a>
+                    </div>
+                        
+                    <div class="col-xs-6 col-sm-6 col-md-4">
+                        <a href="images/fantasy-sorcerer-square.jpg" target="_blank">
+                        <img class="img-fluid img-thumbnail" src="images/fantasy-sorcerer-square.jpg">
+                        </a>
+                    </div>
+                
+                    <div class="col-xs-6 col-sm-6 col-md-4">
+                        <a href="images/fantasy-flail-square.jpg" target="_blank">
+                        <img class="img-fluid img-thumbnail" src="images/fantasy-flail-square.jpg">
+                        </a>
+                    </div>
+                
+                    <div class="col-xs-6 col-sm-6 col-md-4">
+                        <a href="images/fantasy-wizard-square.jpg" target="_blank">
+                        <img class="img-fluid img-thumbnail" src="images/fantasy-wizard-square.jpg">
+                        </a>
+                    </div>
+                
+                    <div class="col-xs-6 col-sm-6 col-md-4">
+                        <a href="images/fantasy-dagger-square.jpg" target="_blank">
+                        <img class="img-fluid img-thumbnail" src="images/fantasy-dagger-square.jpg">
+                        </a>
+                    </div>
+                    
+            </div>
+        </div>
+
+
+            <br>
+        </div>
+        <!-- Graphics | END -->
+<!------------------------------------------------>
+<!------------------------------------------------>
+        <!-- Audio | START -->
+        <div id="audio" class="container-fluid bg-cybergreen p-3">
+            <h1 class="text-white"><span class="title-experience">Audio</span></h1>
+            <br>
+            <p class="text-white">I've been creating my own music since 2005, and during that time I've got to play a bunch of different kinds of music. While currently I might mostly play heavy metal and acoustic ballads at home, my compositions vary from classical music to upbeat game music into electronic stuff.
+            </p>
+            <p class="text-white">My latest undertakings in audio have been creating music and/or sounds for several <b><a class="text-white" href="https://www.turkugamelab.fi/">Turku Game Lab's</a></b> projects and an indie aerial combat game called <b><a class="text-white" href="https://juicydotgames.itch.io/triplane-furball" target="_blank">Triplane Furball</a></b>.
+            </p>
+            <div class="text-center text-white">
+                <h3><b>Examples:</b></h3>
+                <p>( Note that your browser needs to support the HTML audio element for the music players to work )</p>
+                <hr>
+                <p><b>Upbeat game music:</b> Tropical</p>
+                <audio controls>
+                    <source src="audio/game-music-upbeat-tropical.mp3" type="audio/mpeg">
+                </audio>
+                <hr>
+                <p><b>Upbeat game music:</b> Farm</p>
+                <audio controls>
+                    <source src="audio/game-music-upbeat-farm.mp3" type="audio/mpeg">
+                </audio>
+                <hr>
+                <p><b>Electronic music:</b> Atmospheric Space</p>
+                <audio controls>
+                    <source src="audio/electronic-atmospheric-space.mp3" type="audio/mpeg">
+                </audio>
+                <hr>
+                <p><b>Electronic music:</b> Cyberpunkish / 80s</p>
+                <audio controls>
+                    <source src="audio/cyberpunkish-80s.mp3" type="audio/mpeg">
+                </audio>
+                <hr>
+                <p><b>Classical music:</b> Melancholic<br>("Spoon to a Gunfight" | Hopeless version | From "Triplane Furball")</p>
+                <audio controls>
+                    <source src="audio/triplanefb-spoon-2-gunfight-hopeless.mp3" type="audio/mpeg">
+                </audio>
+                <hr>
+            </div>
+            <br>
+        </div>
+        <!-- Audio | END -->
+<!------------------------------------------------>
     </body>
 </html>

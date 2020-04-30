@@ -82,6 +82,15 @@ a:hover
     -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.5);box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
 }
 
+.img-hobbies
+{
+    max-width:300px;
+    max-height:300px;
+    margin-top:20px;
+    margin-bottom:20px;
+    -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.5);box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+
 .img-link
 {
     max-height:250px;

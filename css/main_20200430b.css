@@ -13,6 +13,11 @@ a:hover
     text-decoration: none;
 }
 
+hr
+{
+    border-color:white;
+}
+
 .bg-cyberblue
 {
     background-color: #3C4F6A;

@@ -44,8 +44,7 @@ hr
     padding-top:55px;
     padding-bottom:45px;
     background-color:#a1b3cc;
-    background-image: linear-gradient(rgba(50,50,50, 0.5), #a1b3cc);
-    /*background-image: url("../images/bg-header2.jpg");*/
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(50,50,50, 0.5)), to(#a1b3cc));background-image: -o-linear-gradient(rgba(50,50,50, 0.5), #a1b3cc);background-image: linear-gradient(rgba(50,50,50, 0.5), #a1b3cc);
     background-position: center;
     background-size:cover;
     position:relative;
@@ -68,7 +67,7 @@ hr
     background-size:contain;
     background-repeat: no-repeat;
     background-position: -1px bottom;
-    animation: 4s forwards slideToLeft;
+    -webkit-animation: 4s forwards slideToLeft;animation: 4s forwards slideToLeft;
 }
 .header .header-left-props
 {
@@ -78,7 +77,7 @@ hr
     background-size:contain;
     background-repeat: no-repeat;
     background-position: -1px bottom;
-    animation: 4s forwards slideToRightMore;
+    -webkit-animation: 4s forwards slideToRightMore;animation: 4s forwards slideToRightMore;
 }
 
 .header .header-right
@@ -90,7 +89,7 @@ hr
     background-size:contain;
     background-repeat: no-repeat;
     background-position: right bottom;
-    animation: 4s forwards slideToRight;
+    -webkit-animation: 4s forwards slideToRight;animation: 4s forwards slideToRight;
 }
 .header .header-right-props
 {
@@ -100,7 +99,7 @@ hr
     background-size:contain;
     background-repeat: no-repeat;
     background-position: right bottom;
-    animation: 4s forwards slideToLeftMore;
+    -webkit-animation: 4s forwards slideToLeftMore;animation: 4s forwards slideToLeftMore;
 }
 
 .header-text

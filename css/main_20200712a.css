@@ -364,7 +364,7 @@ audio
     .h1, h1 {font-size:1.45rem;}
     .h2, h2 {font-size:1.25rem;}
     .h3, h3 {font-size:1.1rem;}
-    .p. p {font-size:0.95rem;}
+    .p, p, li {font-size:0.95rem;}
     
     .img-profileimage
     {
@@ -410,4 +410,11 @@ audio
         max-width:280px;
     }
     
+}
+@media only screen and (max-width: 374px) /* Really small screens */
+{
+    .h1, h1 {font-size:1.25rem;}
+    .h2, h2 {font-size:1.15rem;}
+    .h3, h3 {font-size:1rem;}
+    .p, p, li {font-size:0.85rem;}
 }

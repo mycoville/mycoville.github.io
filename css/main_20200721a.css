@@ -113,6 +113,21 @@ hr
     position: relative;
 }
 
+.link-source
+{
+    font-weight: bold;
+    color:#FAFAFA;
+    text-decoration: underline;
+}
+
+.link-source:hover
+{
+    font-weight: bold;
+    color:#FAFAFA;
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
 @-webkit-keyframes slideToLeft
 {
     0%

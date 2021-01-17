@@ -13,6 +13,11 @@ a:hover
     text-decoration: none;
 }
 
+#menu a:focus h1
+{
+    text-decoration: underline;
+}
+
 hr
 {
     border-color:white;
@@ -37,6 +42,8 @@ hr
 .bg-cybergreen
 {
     background-color:#76944D;
+    background-color:rgb(106, 133, 69);
+    background-color:rgb(100, 126, 65);
 }
 
 .header
@@ -373,6 +380,16 @@ audio
     border-radius: 100px;
 }
 
+#programming a:focus, #graphics a:focus
+{
+    outline: 2px solid lightblue;
+}
+
+#audio audio:focus
+{
+    outline: 2px solid lightblue;
+}
+
 /* Responsiveness adjustments */
 @media only screen and (max-width: 767px) 
 {
@@ -433,3 +450,4 @@ audio
     .h3, h3 {font-size:1rem;}
     .p, p, li {font-size:0.85rem;}
 }
+
